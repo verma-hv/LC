@@ -10,11 +10,5 @@ class Solution {
         }
     return new int[]{};
     }
-    public static void main(String[] args){
-        Solution s = new Solution();
-        int[] nums = {4, 3, 7, 8, 10, 12, 20};
-        int target = 20;
-        int[] ans = s.twoSum(nums, target);
-        System.out.println("[" + ans[0] + "," + ans[1] + "]");
-    }
+   
 }
